@@ -21671,6 +21671,35 @@
 											"horizontalAlignment": 0,
 											"verticalAlignment": 5,
 											"wordWrap": false
+										},
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAFgCHf8BWSjc4w=",
+											"_parent": {
+												"$ref": "AAAAAAFgCFWvAMvig4Y="
+											},
+											"model": {
+												"$ref": "AAAAAAFgCHf7vWRSkIc="
+											},
+											"visible": true,
+											"enabled": true,
+											"lineColor": "#ff0000",
+											"fillColor": "#ffffff",
+											"fontColor": "#000000",
+											"font": "Arial;13;0",
+											"showShadow": true,
+											"containerChangeable": false,
+											"containerExtending": false,
+											"left": 869,
+											"top": 620,
+											"width": 279.982421875,
+											"height": 13,
+											"autoResize": false,
+											"underline": false,
+											"text": "+sender: User",
+											"horizontalAlignment": 0,
+											"verticalAlignment": 5,
+											"wordWrap": false
 										}
 									],
 									"visible": true,
@@ -21685,7 +21714,7 @@
 									"left": 864,
 									"top": 585,
 									"width": 289.982421875,
-									"height": 38,
+									"height": 53,
 									"autoResize": false
 								},
 								{
@@ -21717,7 +21746,7 @@
 											"containerChangeable": false,
 											"containerExtending": false,
 											"left": 869,
-											"top": 628,
+											"top": 643,
 											"width": 279.982421875,
 											"height": 13,
 											"autoResize": false,
@@ -21738,7 +21767,7 @@
 									"containerChangeable": false,
 									"containerExtending": false,
 									"left": 864,
-									"top": 623,
+									"top": 638,
 									"width": 289.982421875,
 									"height": 23,
 									"autoResize": false
@@ -21804,7 +21833,7 @@
 							"left": 864,
 							"top": 560,
 							"width": 289.982421875,
-							"height": 86,
+							"height": 101,
 							"autoResize": false,
 							"stereotypeDisplay": "label",
 							"showVisibility": true,
@@ -27500,6 +27529,26 @@
 								"$ref": "AAAAAAFgCFWvAMvaNvU="
 							},
 							"name": "recipient",
+							"visibility": "public",
+							"isStatic": false,
+							"isLeaf": false,
+							"type": {
+								"$ref": "AAAAAAFflmTg8gMPm8Y="
+							},
+							"isReadOnly": false,
+							"isOrdered": false,
+							"isUnique": false,
+							"isDerived": false,
+							"aggregation": "none",
+							"isID": false
+						},
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAFgCHf7vWRSkIc=",
+							"_parent": {
+								"$ref": "AAAAAAFgCFWvAMvaNvU="
+							},
+							"name": "sender",
 							"visibility": "public",
 							"isStatic": false,
 							"isLeaf": false,
