@@ -1,4 +1,3 @@
-
 import .AccountManagement;
 
 public class User {
