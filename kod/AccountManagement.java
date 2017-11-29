@@ -1,3 +1,7 @@
+package kod;
+
+import kod.*;
+
 public class AccountManagement{
 	private int accountNumber;
 	private User owner;
