@@ -1,6 +1,6 @@
-package kod;
+package codeE1;
 
-public class ContactInfo{
+public class ContactInfo {
 	private String telephoneNumebr;
 	private String email;
 	private String address;

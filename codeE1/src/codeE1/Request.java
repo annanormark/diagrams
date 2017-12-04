@@ -1,7 +1,8 @@
+package codeE1;
+
 import java.util.Date;
 
-
-public class Request{
+public class Request {
     private String title;
     private boolean ready;
     private int requesterID;
@@ -17,5 +18,4 @@ public class Request{
     public void sendRequest(){
 
     }
-
 }

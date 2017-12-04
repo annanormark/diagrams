@@ -1,8 +1,10 @@
+package codeE1;
+
 import java.util.Date;
 
-public class Preferences{
+public class Preferences {
     private int duration;
-    private Time time;
+    private Date time;
 
     public void update(){
         

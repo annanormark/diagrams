@@ -1,9 +1,7 @@
-package kod;
+package codeE1;
 
-import kod.*;
-
-public class Payment{
-	//private Request request;
+public class Payment {
+	private Request request;
 	private Boolean confirmed;
 
 	public Boolean makePayment(){

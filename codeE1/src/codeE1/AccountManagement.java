@@ -1,10 +1,8 @@
-package kod;
+package codeE1;
 
-import kod.*;
-
-public class AccountManagement{
+public class AccountManagement {
 	private int accountNumber;
-	//private User owner;
+	private User owner;
 
 	public AccountManagement(){}
 
@@ -16,7 +14,9 @@ public class AccountManagement{
 		return true;
 	}
 
-	//public User getOwner();
+	public User getOwner() {
+		return owner;
+	}
 
 	public int getAccountNumber(){
 		return 0;

@@ -1,6 +1,6 @@
-import kod.Request;
+package codeE1;
 
-public class Response{
+public class Response {
     private Request request;
     private boolean ready;
     private boolean isAccepted;
@@ -12,5 +12,4 @@ public class Response{
     public void isReady(){
 
     }
-
 }
