@@ -13,12 +13,4 @@ public class AccountManagement {
 	public Boolean makePayment(int money){
 		return true;
 	}
-
-	public User getOwner() {
-		return owner;
-	}
-
-	public int getAccountNumber(){
-		return 0;
-	}
 }
