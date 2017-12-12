@@ -19,6 +19,6 @@ public class AccountManagement {
 	}
 
 	public int getAccountNumber(){
-		return 0;
+		return accountNumber;
 	}
 }

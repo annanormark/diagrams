@@ -1,0 +1,23 @@
+public class ContactEngine{
+    private Request request;
+    private ArrayList<Responder> matches;
+
+    public void notify(){
+    }
+
+    public ArrayList<Responder> doMatch(){
+    }
+
+    public void log(){
+
+    }
+    public void makePayment(){
+
+    }
+    public void findResponder(){
+
+    }
+    public void cancelRequest(){
+
+    }
+}
